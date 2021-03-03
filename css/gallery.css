@@ -1,0 +1,14 @@
+/*.carousel {
+  width:auto;
+  height:633px;
+}
+
+
+.carousel img{
+  height:633px;
+}*/
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}

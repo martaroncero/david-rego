@@ -1,0 +1,47 @@
+
+
+
+.wrapper{
+  display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+}
+
+
+.wrapper-about{
+  display: flex;
+    align-items: stretch;
+ width: 100%;
+}
+
+.left{
+    flex: 1 2 0;
+  text-align: left;
+  padding-top: 10px;
+      padding-left: 40px;
+}
+
+.main{
+    flex: 4 0px;
+  width: 100%;
+   text-align: center;
+}
+
+.right{
+    flex: 1 2 0;
+  text-align: right;
+  padding-top: 10px;
+      padding-right: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;;
+}
+
+
+
+
+
+#text{
+  width: 400px;
+}

@@ -1,0 +1,31 @@
+
+@media(max-width: 1024px) {
+.wrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.left{
+  flex-grow: 2;
+  text-align: left;
+  padding-top: 10px;
+  width: 200px;
+}
+
+.main{
+  flex-grow: 4;
+  width: 800px;
+   text-align: center;
+/*   max-height: 633px;*/
+}
+
+.right{
+  flex-grow: 2;
+  text-align: right;
+  padding-top: 10px;
+  width: 200px;
+}
+
+
+}

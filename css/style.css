@@ -1,0 +1,63 @@
+@import url("layout.css");
+/*@import url("max-width-480px.css");
+@import url("max-width-600px.css");*/
+@import url("max-width-768px.css");
+@import url("max-width-900px.css");
+/*@import url("max-width-1024px.css");
+@import url("max-width-1200px.css");*/
+@import url("menu.css");
+@import url("text-container.css");
+@import url("slideshow.css");
+@import url("carousel.css");
+@import url("slideshow.css");
+@import url("dropdown.css");
+@import url("gif.css");
+
+
+
+img{
+max-width: 100%;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+ font-family: europa, sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+h1{
+ font-family: europa, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 33px;
+letter-spacing: 5px;
+}
+
+.left a{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+   font-family: europa, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 13px;
+}
+p{
+
+   font-family: europa, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 13px;
+}
+
+
+

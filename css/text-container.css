@@ -1,0 +1,22 @@
+#text-container{
+  width: 500px;
+  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+/* min-height: 633px;
+*/
+ padding-bottom: 200px;
+
+
+}
+
+
+
+#text-container-contact{
+  width: 500px;
+  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+  height: 633px;
+  padding-top: 200px;
+}

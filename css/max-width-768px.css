@@ -1,0 +1,39 @@
+
+
+@media(max-width: 768px) {
+  body {
+        padding: 20px;
+  }
+
+  .wrapper{
+    flex-direction: column;
+  }
+
+ .main{
+    width: 500px;
+    padding: 10px;
+
+
+ }
+
+.left{
+  flex-grow: 1;
+  text-align: center;
+  width: 100%;
+
+}
+
+
+.right{
+  flex-grow: 1;
+  text-align: center;
+    width: 100%;
+}
+
+
+nav{
+display: flex;
+flex-direction: row;
+}
+
+}

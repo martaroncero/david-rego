@@ -1,0 +1,26 @@
+.menu{
+  display: block;
+}
+
+nav{
+display: flex;
+flex-direction: column;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #2D2C2C;
+}
+
+
+.menu a:hover{
+    color: #B7B7B7;
+
+
+}
+
+
+#link a{
+    color: #B7B7B7;
+    font-weight: 700;
+}

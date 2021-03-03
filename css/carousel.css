@@ -1,0 +1,15 @@
+.carousel-control-next, .carousel-control-prev{
+      width: 50%;
+
+}
+
+
+.carousel-control-next{
+  cursor: e-resize;
+/*cursor: url("images/right.svg");*/
+}
+
+.carousel-control-prev{
+cursor: w-resize;
+}
+/*cursor: e-resize;*/

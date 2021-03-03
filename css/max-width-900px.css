@@ -1,0 +1,41 @@
+
+
+@media(max-width: 900px) {
+body {
+        padding: 20px;
+  }
+
+  .wrapper{
+    flex-direction: column;
+  }
+
+ .main{
+    padding: 10px;
+      order: 3;
+ }
+
+.left{
+  flex-grow: 1;
+  text-align: left;
+  width: 100%;
+  order: 1;
+  padding-left: 10px;
+
+
+}
+
+
+.right{
+  flex-grow: 1;
+  text-align: center;
+    width: 100%;
+      order: 2;
+}
+
+img{
+  width: 100px;
+}
+
+
+
+}
