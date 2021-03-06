@@ -5,11 +5,14 @@
 
 
 .carousel-control-next{
-  cursor: e-resize;
-/*cursor: url("images/right.svg");*/
-}
+
+cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), e-resize;
+
+/*cursor: url('https://res.cloudinary.com/ds32iiece/image/upload/v1614797598/next_vrgrba.svg') auto !important;
+*/}
 
 .carousel-control-prev{
-cursor: w-resize;
+
+cursor: url('https://res.cloudinary.com/ds32iiece/image/upload/v1614797598/previous_rqmakw.svg'), w-resize;
 }
 /*cursor: e-resize;*/

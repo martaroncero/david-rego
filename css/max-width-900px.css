@@ -20,22 +20,30 @@ body {
   width: 100%;
   order: 1;
   padding-left: 10px;
+}
 
-
+.gallery{
+  width: 500px;
+}
+.gallery img {
+  width: 100%;
 }
 
 
 .right{
   flex-grow: 1;
-  text-align: center;
-    width: 100%;
-      order: 2;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  order: 3;
 }
 
-img{
-  width: 100px;
-}
 
 
 
 }
+
