@@ -45,6 +45,11 @@ letter-spacing: 5px;
   color: black;
 }
 
+.left-contact a{
+  text-decoration: none;
+  color: black;
+}
+
 a{
    font-family: europa, sans-serif;
 font-weight: 300;
