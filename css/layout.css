@@ -56,3 +56,8 @@
 #text{
   width: 400px;
 }
+
+.menu-responsive{
+  visibility: hidden;
+}
+
