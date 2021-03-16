@@ -56,12 +56,22 @@ font-weight: 300;
 font-style: normal;
 font-size: 13px;
 }
+
 p{
 
-   font-family: europa, sans-serif;
+font-family: europa, sans-serif;
 font-weight: 300;
 font-style: normal;
 font-size: 13px;
+}
+
+.title{
+  font-family: europa, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 13px;
+padding-right: 50px;
+height: 15px;
 }
 
 
