@@ -61,3 +61,7 @@
   visibility: hidden;
 }
 
+.title{
+  height: 15px;
+  padding-right: 100px;
+}
