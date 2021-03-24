@@ -60,6 +60,21 @@ display: flex;
   width: 350px;
 }
 
+.right, .archive nav{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.right, .archive nav a{
+  color: black;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
 .dropbtn{
   display: none;
 }
