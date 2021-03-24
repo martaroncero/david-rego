@@ -7,12 +7,13 @@ body {
 
   .wrapper{
     flex-direction: column;
-        padding: 20px;
+    padding: 20px;
+    height: 100vh;
   }
 
-    .wrapper-about{
+  .wrapper-about{
      flex-direction: column;
-        padding: 20px;
+     padding: 20px;
 
   }
 
@@ -54,7 +55,7 @@ body {
 .right nav{
 display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+      justify-content: space-evenly;
    flex-wrap: wrap;
   width: 350px;
 }
@@ -82,7 +83,13 @@ display: flex;
 
     color: black;
     margin: 5px;
+    text-decoration: none;
 
+}
+
+#link{
+  color: gray;
+    margin: 5px;
 }
 
 
