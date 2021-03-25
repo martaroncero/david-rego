@@ -77,3 +77,10 @@ min-height: 700px;
 .title p{
  width: 100%;
 }
+
+
+#text-container-contact{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
