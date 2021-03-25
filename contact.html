@@ -17,7 +17,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+    <body class="fade-out">
+    <script>
+      document.body.classList.add('fade-out');
+
+      window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.remove('fade-out');
+    });
+    </script>
 
   <div class="wrapper">
     <div class="left-contact">
