@@ -15,7 +15,9 @@
 
 
 img{
-max-width: 100%;
+width: 100%;
+
+  object-fit: cover;
 }
 
 body{
@@ -41,6 +43,13 @@ html {
 body.fade-out {
   opacity: 0;
   transition: none;
+}
+
+.fade-out{
+  opacity: 0;
+  transition: 1s;
+
+
 }
 
 h1{

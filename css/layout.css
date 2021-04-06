@@ -35,7 +35,7 @@ min-height: 700px;
   margin-left: 50px;
 }
 
-.main{
+#main{
  flex: 4 0px;
   width: 100%;
   text-align: center;
@@ -43,6 +43,9 @@ min-height: 700px;
   align-items: center;
   justify-content: center;
   /*    max-height: 600px;*/
+
+
+
 
 }
 
