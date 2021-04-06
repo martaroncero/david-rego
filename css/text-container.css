@@ -12,10 +12,21 @@
 
 
 
+.info-contact{
+  margin-top: 200px;
+}
+
+
 #text-container-contact{
   width: 500px;
+  height: 100%;
   text-align: left;
   text-align: justify;
   text-justify: inter-word;
+  margin-left: 200px;
+  align-content: space-between;
+  display: flex;
+
+
 /*  padding-top: 100px;*/
 }
