@@ -1,8 +1,8 @@
 @import url("layout.css");
-/*@import url("max-width-480px.css");*/
-/*@import url("max-width-600px.css");*/
-/*@import url("max-width-768px.css");*/
-@import url("max-width-900px.css");
+@import url("max-width-480px.css");
+@import url("max-width-600px.css");
+@import url("max-width-768px.css");
+
 /*@import url("max-width-1024px.css");
 @import url("max-width-1200px.css");*/
 @import url("menu.css");
@@ -11,6 +11,7 @@
 @import url("carousel.css");
 /*@import url("slideshow.css");
 */@import url("dropdown.css");
+@import url("max-width-900px.css");
 
 
 

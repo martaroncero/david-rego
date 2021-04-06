@@ -2,13 +2,14 @@
 
 @media(max-width: 900px) {
 body {
-        padding: 20px;
+        padding: 1;
   }
 
   .wrapper{
     flex-direction: column;
-    padding: 20px;
+
     height: 100vh;
+
   }
 
   .wrapper-about{
@@ -23,6 +24,10 @@ body {
   /* margin: 50px;*/
 
  }
+
+ #text-container-contact{
+  margin: 0;
+}
 
 .left{
   flex-grow: 1;
@@ -125,6 +130,7 @@ display: flex;
   font-size: 12px;
   padding-top: 20px;
 }
+
 
 
 }
