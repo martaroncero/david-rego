@@ -37,7 +37,7 @@ body{
 }
 
 html {
-  background-color: black;
+  background-color: #fff;
 }
 
 body.fade-out {
@@ -47,7 +47,7 @@ body.fade-out {
 
 .fade-out{
   opacity: 0;
-  transition: 1s;
+  transition: none;
 
 
 }

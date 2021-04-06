@@ -22,7 +22,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-   <body>
+   <body class="fade-out">
+    <script>
+      document.body.classList.add('fade-out');
+
+      window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.remove('fade-out');
+    });
+    </script>
 
 
   <div class="wrapper">
@@ -39,7 +46,11 @@
         <a href="contact.html">Contact</a>
       </nav>
       </div>
+      <!-- unpkg -->
+<script src="https://unpkg.com/@barba/core"></script>
 
+<!-- jsdelivr -->
+<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
     </div>
 
 
