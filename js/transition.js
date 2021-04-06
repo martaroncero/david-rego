@@ -12,11 +12,11 @@ $("nav a").on("click", function (event){
   $.ajax({
     url: href,
     success: function (data) {
-      $("wrapper").fadeOut(250, function(){
-        const newPage = $(data).filter("wrapper").html()
+      $(".main").fadeOut(250, function(){
+        const newPage = $(data).filter(".main").html()
 
-        $("wrapper").html(newPage)
-        $("wrapper").fadeIn(250)
+        $(".main").html(newPage)
+        $(".main").fadeIn(250)
       })
     }
   })
