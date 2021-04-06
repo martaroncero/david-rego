@@ -1,0 +1,40 @@
+
+
+/*
+These styles create the pre-loaded aspect ratio.
+*/
+
+img::before {
+  display: block;
+  content: '';
+  padding-top: calc(100% * 2 / 3);
+  /* You could reduce this expression with a preprocessor or by doing the math. I've kept the longer form in `calc()` to make the math more readable for this demo. */
+}
+
+/*
+These styles are just decorative: they don't affect the aspect ratio at all.
+*/
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+img::after {
+  content: 'Click to Load Image';
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 8vw;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
