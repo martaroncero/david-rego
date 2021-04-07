@@ -4,7 +4,7 @@
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 700px;
+   width: 100%;
     padding: 50px 100px;
 }
 
@@ -34,7 +34,7 @@ padding: 50px 100px;
 
 #main{
  flex: 4 0px;
-  width: 100%;
+  width: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
